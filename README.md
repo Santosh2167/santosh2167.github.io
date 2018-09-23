@@ -59,6 +59,7 @@ Github: https://github.com/Santosh2167/santosh2167.github.io
 Trello:https://trello.com/b/Ryr9fdzH/portfolio-project
 (trello is set public, you should be able to view it)
 website: https://santosh2167.github.io/
+powerpoint: https://docs.google.com/presentation/d/1m9WhNRfro1JfvWhm3X5W7Kl2xaOeJeKpcL3bKJ_bLVk/edit#slide=id.p
 
 ###Decision on Fonts
 Considering that using too many fonts slows down the website and cause high chance of font inconsistency in the website, i have used only one font Montserrat.
