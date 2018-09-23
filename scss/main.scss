@@ -21,6 +21,11 @@
 	display: flex;
 	justify-content: center;
 	padding: 50px 0;
+
+	@media(max-width: $breakpoint-phablet) {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 }
 
 .homepage-social{
@@ -322,10 +327,8 @@ th {
 
 	}*/
 .contact-me {
-	height: 500px;
 	background-color: #FFEC8B;
-	width: 90%;
-	margin: 0 auto;
+	padding: 50px 0;
 }
 
 .get-in-touch {
@@ -339,14 +342,11 @@ th {
 }
 
 .input-fields {
-	/*border: 1px solid black;*/
-	width: 90%;
-	margin: 0 auto;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
 }
 
 
@@ -464,6 +464,7 @@ th {
 	.name-email,.msg-ph, .input-fields {
 		flex-direction: column;
 		justify-content: space-around;
+		width: auto;
 	}
 
 	.name input, .ph input {
