@@ -4,7 +4,7 @@
     var windowWidth = $(window).width();
     var diamondSize = (windowWidth > 600) ? 250 : 100;
 
-    console.log(windowWidth, diamondSize);
+    // console.log(windowWidth, diamondSize);
     
     var Diamonds = function(customOptions) {
         this.options = {
