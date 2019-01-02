@@ -1,11 +1,7 @@
 @import './mobile-version/menubar-container.scss';
 @import './mobile-version/picture-container';
-@import './common/_fonts.css';
+@import './common/fonts.css';
+@import './mobile-version/about-me.scss';
+@import './common/base';
 
-*{
-    padding:0;
-    margin:0;
-}
-body {
-    background: green;
-} 
+
