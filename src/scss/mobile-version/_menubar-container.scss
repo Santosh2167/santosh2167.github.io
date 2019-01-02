@@ -1,0 +1,34 @@
+.menubar-container{
+    background: rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    color: white;
+    //position:fixed; ask karuna yo garna saath sab left hand side ma janchha. yo container bus justify centre garna ko lagi ho? fix chai aarko ma garnee?
+    width: 100%;//400px; //how much to put in width, can we put max-width?
+    margin: 0 auto;
+}
+
+.menu-itemHolder{
+    color: white;
+    // background: red;
+    position:fixed;
+}
+
+.hamburger{ //menu-itemholder ma color white garda hamburger kina white na bha?
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 16px;
+}
+
+.menu-items{
+   list-style: none;
+   display:none;
+
+   li a {
+       text-decoration: none;
+       color: white;
+       font-size: 17px;
+   }
+}

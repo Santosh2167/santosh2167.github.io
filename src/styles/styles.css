@@ -1,0 +1,35 @@
+.menubar-container {
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  margin: 0 auto; }
+
+.menu-itemHolder {
+  color: white;
+  position: fixed; }
+
+.hamburger {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 16px; }
+
+.menu-items {
+  list-style: none;
+  display: none; }
+  .menu-items li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  background: green; }
+
+/*# sourceMappingURL=styles.css.map */
