@@ -10,7 +10,6 @@
 
 .menu-itemHolder{
     color: white;
-    // background: red;
     position:fixed;
 }
 
@@ -19,16 +18,24 @@
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 16px;
+    font-size: 16px;//hamburger ko fontsze increase bhayeena gp
+    z-index: 10;
+    
+    i {
+        font-size: 40px;
+        margin: 5px;
+    }
 }
 
 .menu-items{
    list-style: none;
    display:none;
+   
 
    li a {
        text-decoration: none;
        color: white;
        font-size: 17px;
+       font-weight: bold;
    }
 }

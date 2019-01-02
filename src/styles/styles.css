@@ -1,3 +1,4 @@
+@import url(./common/_fonts.css);
 .menubar-container {
   background: rgba(0, 0, 0, 0.75);
   display: flex;
@@ -15,7 +16,11 @@
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 16px; }
+  font-size: 16px;
+  z-index: 10; }
+  .hamburger i {
+    font-size: 40px;
+    margin: 5px; }
 
 .menu-items {
   list-style: none;
@@ -23,7 +28,61 @@
   .menu-items li a {
     text-decoration: none;
     color: white;
-    font-size: 17px; }
+    font-size: 17px;
+    font-weight: bold; }
+
+.picture-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black; }
+
+.silhouette-picture {
+  background-image: url("./../images/dad-son.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-color: black;
+  background-attachment: fixed;
+  width: 100%; }
+
+.circular-pic {
+  height: 80px;
+  width: 80px;
+  background-image: url("./../images/tom.JPG");
+  background-color: black;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  margin-top: -50px; }
+
+.welcome-message {
+  font-weight: bold;
+  font-family: "Arimo", sans-serif;
+  position: absolute;
+  font-size: 15px;
+  margin-top: 10px;
+  background-color: #FFC04C;
+  border-radius: 25px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 15px; }
+
+.hand-download-contact {
+  position: absolute;
+  margin-top: 120px;
+  width: 150px; }
+  .hand-download-contact ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; }
+    .hand-download-contact ul li a {
+      text-decoration: none;
+      font-size: 25px;
+      color: white; }
 
 * {
   padding: 0;

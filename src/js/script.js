@@ -1,5 +1,7 @@
-const hamburger= document.querySelector(".hamburger");
+//SCRIPT FOR: HAMBURGER MENU
+//Description: This script helps to show menu items on click
 
+const hamburger= document.querySelector(".hamburger");
 hamburger.addEventListener("click",displayMenuItems)
 
 function displayMenuItems(){
@@ -9,6 +11,9 @@ function displayMenuItems(){
         menuItems.style.display="none";
     }else{
         menuItems.style.display="block";
-    }
+        
+            }
 
 }
+
+//END OF SCRIPT FOR HAMBURGER MENU
