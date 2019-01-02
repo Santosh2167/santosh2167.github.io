@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 .about-me {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 120px;
-    overflow: hidden;
- 
-   
+    padding: 0 20px;
+
 }
 
 .about-me-heading {
@@ -16,37 +16,22 @@
     // padding-bottom: 50px;
     
     //font is not picking up Montserrat, how to increase gap between text and underline
-    
   
 }
 
 .santosh-pic {
-    // background-image: url("../../images/santosh_potrait.jpg");
-    height: 220px;
-    max-width: 220px;
+    height: auto;
+    max-width:100%;
+    margin: 15px 0;
+}
 
-    margin-left: 200px;
-    // max-height: 500px;
-    // border: 1px solid black;
-    // background-image: url("../../images/santosh_potrait.jpg");
-    // height: 100vh;
-    // width: 100%;
-    // background-position: center;
-    // background-repeat: no-repeat;
-    // background-size: cover;
+.hi-my-name-is {
+    font-size: 25px;
+    margin-bottom: 15px;
     
 }
 
-// .silhouette-picture{   
+.i-am-a-creative{
     
-//     border: 1px solid black;
-//     background-image: url("./../images/dad-son.JPG");
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     height: 100vh;
-//     background-color: black;
-//     background-attachment: fixed; 
-//     width: 100%
-//     // margin-top: 200px;
-// }
+}
+
