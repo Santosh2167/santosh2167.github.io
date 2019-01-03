@@ -1,0 +1,18 @@
+@import "./../common/mixins";
+
+.education-career {
+    @include main-containers;
+
+}
+
+.educationCareer-heading {
+   @include section-header;   
+}
+
+.career-list-icon {
+    font-size: 60px;
+}
+
+.course-institute-list {
+    
+}

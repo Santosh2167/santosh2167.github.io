@@ -92,10 +92,9 @@
   padding: 0 20px; }
 
 .about-me-heading {
-  font-family: "Montserrat";
-  text-decoration: underline;
-  text-decoration-color: #FFC04C;
-  margin: 15px 0; }
+  margin: 15px 0;
+  padding-bottom: 3px;
+  border-bottom: #FFC04C 2px solid; }
 
 .santosh-pic {
   height: auto;
@@ -107,20 +106,47 @@
   margin-bottom: 15px; }
 
 .short-description {
-  font-size: 20px;
-  line-height: 2;
-  letter-spacing: 1px; }
-
-.long-description {
+  font-size: "20px";
   line-height: 2;
   letter-spacing: 1px;
-  margin-top: 0;
-  text-align: justify;
-  font-size: 15px; }
+  text-align: justify; }
+
+.long-description {
+  font-size: "15px";
+  line-height: 2;
+  letter-spacing: 1px;
+  text-align: justify; }
 
 .contact-me {
   align-self: flex-start;
   font-weight: bold; }
+
+.social-icons {
+  width: 100%; }
+  .social-icons ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start; }
+  .social-icons ul li a {
+    color: black; }
+
+.linkedin {
+  margin-left: 15px; }
+
+.education-career {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px; }
+
+.educationCareer-heading {
+  margin: 15px 0;
+  padding-bottom: 3px;
+  border-bottom: #FFC04C 2px solid; }
+
+.career-list-icon {
+  font-size: 60px; }
 
 * {
   margin: 0;

@@ -1,0 +1,24 @@
+@mixin descriptions($fontSize){
+    font-size: $fontSize;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+//each section has a parent container. mixin below is included by all the main containers
+@mixin main-containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+//each section header included following mixin
+@mixin section-header {
+    margin: 15px 0;
+    padding-bottom: 3px;
+    border-bottom: #FFC04C 2px solid;
+  
+}
+
