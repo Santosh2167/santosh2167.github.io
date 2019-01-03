@@ -32,7 +32,23 @@
     
 }
 
-.short-description{
+.short-description {
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
     
+}
+
+.long-description {
+    line-height: 2;
+    letter-spacing: 1px;
+    margin-top: 0;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.contact-me {
+    align-self: flex-start;
+    font-weight: bold;
 }
 
