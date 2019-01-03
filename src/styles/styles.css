@@ -1,5 +1,13 @@
 @import url(./common/fonts.css);
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 15px;
+  font-family: "Montserrat"; }
+
 .menubar-container {
   background: rgba(0, 0, 0, 0.75);
   display: flex;
@@ -148,12 +156,96 @@
 .career-list-icon {
   font-size: 60px; }
 
-* {
-  margin: 0;
-  padding: 0; }
+.course-institute-list ul {
+  padding-left: 25px; }
+.course-institute-list ul li {
+  font-size: 18px;
+  margin-bottom: 30px; }
 
-body {
-  font-size: 15px;
-  font-family: "Montserrat"; }
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden; }
+
+.skills-heading {
+  margin: 15px 0;
+  padding-bottom: 3px;
+  border-bottom: #FFC04C 2px solid; }
+
+.skill-pic img {
+  width: 100%;
+  height: auto; }
+
+.photo-filter {
+  height: 228px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  margin-top: 37px; }
+
+#diamond {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: red;
+  position: absolute;
+  top: 32px;
+  left: 10px; }
+
+#diamond:after {
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: red; }
+
+.blogs-projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px; }
+
+.blogs-projects-heading {
+  margin: 15px 0;
+  padding-bottom: 3px;
+  border-bottom: #FFC04C 2px solid; }
+
+.blogs-projects-block {
+  border: 2px solid #ffc04c;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 15px; }
+
+.blogs-projects-pic {
+  border-radius: 20px;
+  width: 100%; }
+
+.blogs-projects-type {
+  width: 120px;
+  border: 1px solid #000;
+  margin: 10px auto;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffc04c;
+  border-radius: 20px;
+  text-align: center;
+  padding: 4PX 14PX;
+  color: #000; }
+
+.blogs-projects-description {
+  line-height: 150%;
+  margin-top: 5px;
+  text-align: justify; }
 
 /*# sourceMappingURL=styles.css.map */

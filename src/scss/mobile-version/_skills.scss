@@ -1,0 +1,47 @@
+@import "./../common/mixins";
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow:hidden;
+    //padding: 0 20px;
+}
+.skills-heading {
+    @include section-header;   
+ }
+
+ .skill-pic img {
+     width: 100%;
+     height: auto;
+ }
+
+ .photo-filter {
+     height: 228px;
+     width: 100%;
+     background: rgba(0,0,0,.75);
+     position: absolute;
+     margin-top:37px;
+ }
+
+  #diamond { 
+      width: 0; 
+      height: 0; 
+      border: 50px 
+      solid transparent; 
+      border-bottom-color: red; 
+      position: absolute; top: 32px;
+      left: 10px; 
+    } 
+    #diamond:after { 
+        content: ''; 
+        position: absolute; 
+        left: -50px; 
+        top: 50px; 
+        width: 0; 
+        height: 0; 
+        border: 50px solid transparent;
+         border-top-color: red; 
+        }

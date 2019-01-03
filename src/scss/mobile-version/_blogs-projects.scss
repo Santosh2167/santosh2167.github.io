@@ -1,0 +1,49 @@
+@import "./../common/mixins";
+
+.blogs-projects-container {
+    @include main-containers;
+}
+
+.blogs-projects-heading {
+    @include section-header; 
+}
+
+.blogs-projects-block {
+    border: 2px solid #ffc04c;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+}
+
+.blogs-projects-pic {
+    border-radius: 20px;
+    width: 100%;
+    // display: block;
+    // margin-left: auto;
+    // margin-right: auto;
+
+}
+
+.blogs-projects-type {
+    width: 120px;
+    border: 1px solid #000;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffc04c;
+    border-radius: 20px;
+    text-align: center;
+    padding: 4PX 14PX;
+    color: #000;
+   // text-decoration: none;
+}
+
+.blogs-projects-description {
+    line-height: 150%;
+    margin-top: 5px;
+    text-align:justify;
+}
