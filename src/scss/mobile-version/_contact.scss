@@ -1,0 +1,77 @@
+@import "./../common/mixins";
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding: 0 20px;
+}
+
+.contact-heading{
+    @include section-header; 
+}
+
+.name input, .email input, .ph input, {
+	background: transparent;
+	border-bottom: 2px solid black;
+	border-right: 0;
+	border-top: 0;
+	border-left:0;
+	width: 100%;
+	font-size: 20px;
+	text-decoration: bold;
+	/*border-color: black;*/
+}
+
+.contact-me button {
+	background: gold;
+	border-radius: 25px;
+	text-decoration: bold;
+	font-size: 16px;
+	width: 118px;
+    height: 33px;
+    margin: 0 auto;
+    display: block;
+}
+
+.name label, .ph label, .email label {
+    
+    margin: 30px 0;
+    display :inline-block;
+}
+
+.form-items {
+    background: #ffec8b;
+    width: 100%;
+}
+
+.form-area {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message-area {
+    margin-bottom: 10px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.form-area button {
+	background: gold;
+	border-radius: 25px;
+	font-size: 16px;
+	width: 118px;
+    height: 33px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+    align-self: center;
+}
+
+.message textarea {
+    width: 240px;
+    height: 67px;
+    display: inline-block;
+}
