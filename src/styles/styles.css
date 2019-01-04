@@ -122,6 +122,11 @@ body {
   align-items: center;
   padding: 0 20px; }
 
+@media (min-width: 768px) {
+  .about-me-items {
+    display: flex;
+    justify-content: space-between; } }
+
 .about-me-heading {
   margin: 15px 0;
   padding-bottom: 3px;
@@ -131,6 +136,14 @@ body {
   height: auto;
   max-width: 100%;
   margin: 15px 0; }
+  @media (min-width: 768px) {
+    .santosh-pic {
+      max-width: 350px;
+      margin-right: 14px; } }
+
+@media (min-width: 768px) {
+  .descriptions-icons {
+    margin-top: 11px; } }
 
 .hi-message {
   font-size: 25px;
@@ -147,6 +160,13 @@ body {
   line-height: 2;
   letter-spacing: 1px;
   text-align: justify; }
+  @media (min-width: 768px) {
+    .long-description {
+      margin-bottom: -25px; } }
+
+@media (min-width: 768px) {
+  .optional-description {
+    display: none; } }
 
 .contact-me {
   align-self: flex-start;
@@ -165,11 +185,7 @@ body {
   margin-left: 15px; }
 
 .education-career {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 20px; }
+  display: flex; }
 
 .educationCareer-heading {
   margin: 15px 0;

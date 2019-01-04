@@ -4,11 +4,19 @@
 
 
 .about-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    // padding: 0 20px;
+    @include main-containers;
+}
+
+.about-me-items{
+    @media (min-width: 768px){
+        display: flex;
+        justify-content: space-between;
+    }
 
 }
 
@@ -20,6 +28,19 @@
     height: auto;
     max-width:100%;
     margin: 15px 0;
+
+    @media (min-width: 768px){
+        max-width: 350px;
+        margin-right: 14px;
+    }
+}
+
+.descriptions-icons {
+
+    @media (min-width: 768px) {
+        margin-top: 11px;
+    }
+
 }
 
 .hi-message {
@@ -35,6 +56,18 @@
 .long-description {
     @include descriptions("15px");
 
+    @media (min-width: 768px) {
+        margin-bottom: -25px;
+    }
+
+   
+
+}
+
+.optional-description {
+    @media (min-width: 768px) {
+        display: none;
+    }
 }
 
 .contact-me {
