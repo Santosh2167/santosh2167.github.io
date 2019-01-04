@@ -3,14 +3,24 @@
     display: flex;
     justify-content: center;
     color: white;
-    //position:fixed; ask karuna yo garna saath sab left hand side ma janchha. yo container bus justify centre garna ko lagi ho? fix chai aarko ma garnee?
+    position:fixed; //ask karuna yo garna saath sab left hand side ma janchha. yo container bus justify centre garna ko lagi ho? fix chai aarko ma garnee?
     width: 100%;//400px; //how much to put in width, can we put max-width?
     margin: 0 auto;
+    z-index: 10;
+    height: auto;
+
+    @media(min-width: 768px){
+        background-color:rgba(0,0,0,0.75);
+        //width: 100%;
+    }
+
+    
 }
 
-.menu-itemHolder{
-    color: white;
-    position:fixed;
+.menu-itemsHolder{
+    //color: white;
+    //position:fixed;
+
 }
 
 .hamburger{ //menu-itemholder ma color white garda hamburger kina white na bha?
@@ -25,6 +35,11 @@
         font-size: 40px;
         margin: 5px;
     }
+
+    @media (min-width: 768px){
+        display: none;
+    }
+
 }
 
 .menu-items{
@@ -38,4 +53,20 @@
        font-size: 17px;
        font-weight: bold;
    }
+   @media(min-width: 768px) {
+       display: flex;
+       justify-content: space-between;
+       //font-weight: bold;
+   }
+
+   li {
+       margin: 28px;
+       //font-weight: bold;
+   }
+}
+
+@media (min-width: 768px) {
+
+
+
 }

@@ -16,7 +16,7 @@
 
  
  .skill-pic {
-    // position: absolute;
+    position: absolute;
     width: 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -24,51 +24,27 @@
     background-size: cover;
     min-height: 500px;
     z-index: 0;
+ 
     
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        background-color: rgba(0,0,0,0.7);
+        width: 100%;
+        height: 100%;
     
-    // &:after {
-    //     content: '';
-    //     display: block;
-    //     position: absolute;
-    //     background-color: rgba(0,0,0,0.7);
-    //     width: 100%;
-    //     height: 100%;
-    // }
+    }
  }
-
- #test {
-     background-image: url("./../../images/santosh_potrait.jpg");
-     height: 100px;
-     width: 100%;
-     border: solid black 1px;
-     background-size: cover;
- }
-// .skill-pic {
-//     position: relative;
-
-//     img {
-//         width: 100%;
-//         height: auto;
-//     }
-
-//     &:after {
-//         content: '';
-//         position: absolute;
-//         top: 0;
-//         background: rgba(0,0,0,.75);
-//         width: 100%;
-//         height: 100%;
-//     }
-//  }
 
 .skill-list {
     display: flex;
     flex-wrap: wrap;
 
     li {
-        width: 100px;
-        height: 100px;
-        background-color: red;
+        width: 90px;
+        height: 90px;
+        background-color: white;
         transform: rotate(45deg);
         margin: 25px;
         list-style: none;
