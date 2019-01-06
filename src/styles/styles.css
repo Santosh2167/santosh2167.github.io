@@ -185,7 +185,11 @@ body {
   margin-left: 15px; }
 
 .education-career {
-  display: flex; }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px; }
 
 .educationCareer-heading {
   margin: 15px 0;
@@ -194,12 +198,29 @@ body {
 
 .career-list-icon {
   font-size: 60px; }
+  .career-list-icon i {
+    padding-bottom: 25px; }
+
+.education-career-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .course-institute-list ul {
-  padding-left: 25px; }
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px; }
+  @media (min-width: 768px) {
+    .course-institute-list ul {
+      padding-left: 0; } }
 .course-institute-list ul li {
-  font-size: 18px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 2; }
+  @media (min-width: 768px) {
+    .course-institute-list ul li {
+      font-size: 18px; } }
 
 .skills-section {
   display: flex;
