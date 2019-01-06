@@ -46,3 +46,11 @@
     margin-top: 5px;
     text-align:justify;
 }
+.three-blocks {
+    @media (min-width: 768px){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}

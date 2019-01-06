@@ -313,6 +313,12 @@ body {
   margin-top: 5px;
   text-align: justify; }
 
+@media (min-width: 768px) {
+  .three-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; } }
+
 .contact-container {
   display: flex;
   flex-direction: column;
