@@ -12,7 +12,7 @@
     @include section-header; 
 }
 
-.name input, .email input, .ph input, {
+.name input, .email input, .ph input {
 	background: transparent;
 	border-bottom: 2px solid black;
 	border-right: 0;
@@ -21,7 +21,13 @@
 	width: 100%;
 	font-size: 20px;
 	text-decoration: bold;
-	/*border-color: black;*/
+	@media (min-width: 768px){
+        width: 190px;
+    }
+
+    @media (min-width: 1000px) {
+        width: 270px;
+    }
 }
 
 .contact-me button {
@@ -74,4 +80,31 @@
     width: 240px;
     height: 67px;
     display: inline-block;
+    @media(min-width: 768px) {
+        width: 190px;
+        height: 41px;
+    }
+
+    @media (min-width: 1000px) {
+        width: 270px;
+    }
+}
+
+.name-email, .msg-ph {
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        //border: 1px solid black;
+    }
+
+}
+
+.input-fields {
+    @media(min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
 }

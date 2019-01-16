@@ -68,6 +68,11 @@
     @media (min-width: 768px) {
         display: none;
     }
+
+    @media (min-width: 1000px) {
+        display: inline-block;
+        margin: 15px 0;
+    }
 }
 
 .contact-me {
@@ -89,6 +94,7 @@
         
     }
 }
+
 
 .linkedin {
     margin-left: 15px;
